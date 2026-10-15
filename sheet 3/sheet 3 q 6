@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package javaapplication22;
+import java.util.Scanner;
+/**
+ *
+ * @author Admin-web
+ */
+public class JavaApplication22 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      int num;
+      int largest=0;
+      System.out.print("enter number not 0");
+      Scanner input=new Scanner (System.in);
+      num= input.nextInt();
+        while(num!=0){
+          if(num>largest)
+              largest=num;
+            num= input.nextInt();
+           
+        }
+        System.out.println("largest = "+ largest);
+            
+        
+            
+    }
+    
+}
